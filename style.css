@@ -70,10 +70,11 @@ body {
     height: 80vh;
     display: flex;
     flex-flow: column;
-    transform: translateX(100%);
-    transition: all 400ms ease;
+    overflow-y: hidden;
     background: #000;
     position: absolute;
+    transition: all 400ms ease;
+    transform: translateX(100%);
     justify-content: space-around;
   }
 
